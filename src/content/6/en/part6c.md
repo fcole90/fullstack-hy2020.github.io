@@ -352,7 +352,7 @@ const NewNote = () => {
 
 Both components would only use the function provided to them as a prop without caring about the communication with the server that is happening in the background.
 
-Now let's install the [redux-thunk](https://github.com/gaearon/redux-thunk)-library, which enables us to create <i>asynchronous actions</i>. Installation is done with the command:
+Now let's install the [redux-thunk](https://github.com/gaearon/redux-thunk)-library, which enables us to create <i>asynchronous actions</i>. You can learn more about why it is useful [here](https://stackoverflow.com/questions/35411423/how-to-dispatch-a-redux-action-with-a-timeout/35415559#35415559). Installation is done with the command:
 
 ```bash
 npm install redux-thunk
